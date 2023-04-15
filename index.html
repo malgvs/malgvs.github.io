@@ -1,13 +1,80 @@
-
+<!DOCTYPE html>
 <html>
-    <head>
-    <center>
+<head>
+	<title>Moja strona</title>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
 
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
 
-    <title>Work in progress </title>
-      <a href="https://discord.gg/HtPdSn3BFq">Discord</a>
-      <html><body><h1>Work in progress</h1></body></html>
-         <meta charset=utf-8">
-    </head>
+		.nav {
+			background-color: #555;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			padding: 10px 20px;
+		}
 
-    <body>
+		.nav a {
+			color: #fff;
+			font-size: 16px;
+			margin: 0 10px;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+
+		.content {
+			background-color: #eee;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.footer a {
+			color: #fff;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<h1>Moja strona</h1>
+	</header>
+	<nav class="nav">
+		<a href="#">Strona główna</a>
+		<a href="#">O mnie</a>
+		<a href="#">Blog</a>
+		<a href="#">Kontakt</a>
+	</nav>
+	<main class="content">
+		<h2>Witaj na mojej stronie!</h2>
+		<p>Tutaj znajdziesz informacje o mnie, moim blogu i sposobie kontaktu ze mną.</p>
+		<h3>Moje inne strony:</h3>
+		<ul>
+			<li><a href="https://www.facebook.com/mojprofil">Mój profil na Facebooku</a></li>
+			<li><a href="https://www.instagram.com/mojprofil">Mój profil na Instagramie</a></li>
+			<li><a href="https://twitter.com/mojprofil">Mój profil na Twitterze</a></li>
+		</ul>
+	</main>
+	<footer class="footer">
+		<p>Strona stworzona przez mnie &copy; 2023</p>
+		<p><a href="#">Polityka prywatności</a> | <a href="#">Regulamin</a></p>
+	</footer>
+</body>
+</html>
