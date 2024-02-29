@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Moja strona</title>
+	<title>qwzzz</title>
 	<meta charset="UTF-8">
 	<style>
 		body {
@@ -51,6 +51,38 @@
 			text-decoration: none;
 		}
 	</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otwórz gugel</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<button class="button" onclick="openPopup()">Otwórz gugle</button>
+
+<script>
+    function openPopup() {
+        var popupWidth = 600;
+        var popupHeight = 400;
+        var left = (screen.width - popupWidth) / 2;
+        var top = (screen.height - popupHeight) / 2;
+        var popupWindow = window.open("https://www.google.com", "_blank", "width=" + popupWidth + ", height=" + popupHeight + ", left=" + left + ", top=" + top);
+    }
+</script>
+
+</body>
+</html>
+
 </head>
 <body>
 	<header class="header">
