@@ -124,7 +124,17 @@
 <body>
     <h1>Witaj na mojej prostej stronie!</h1>
     <p>Tekistmniejszy </p>
-    <a href="gpt1.html">strona od chatgpt</a>
+    <a href="gpt1.html" id="bhtml">strona zrobiona przez chatgpt</a>
+
+    <script>
+        document.querySelectorAll("#bhtml").forEach(button => {
+          button.addEventListener("click", function(event) {
+            event.preventDefault();
+            const urlWithoutExtension = this.getAttribute("href").replace(".html", "");
+            window.location.href = urlWithoutExtension;
+          });
+        });
+    </script>
 	
     <h2>Przykładowe linki:</h2>
     <ul>
@@ -136,7 +146,7 @@
     <h2 id="sekcja2">Sekcja 2</h2>
     <p>co co co co</p>
     
-<button onclick="openPopup()">bruehwsib</button>
+<button onclick="openPopup()">popup(na pc)</button>
 
     <script>
         function openPopup() {
